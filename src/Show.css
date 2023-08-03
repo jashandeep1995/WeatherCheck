@@ -1,0 +1,489 @@
+*
+{
+    margin:0;
+    box-sizing: border-box;
+    font-style: italic;
+    
+    
+} 
+.container
+{
+    margin: auto;
+    max-width: 1200px;
+} 
+
+.user
+{
+  text-align: left;
+  margin-left:20px;
+  color: #ffffff;
+  
+}
+
+.home
+{
+  color: #ffffff;
+  display: flex;
+}
+
+.logininfo
+{
+  
+   color:#0e525b;
+   flex-basis:50%;
+   border-radius:25px;
+   margin:50px;
+   text-align: center;
+   padding: 20px;
+   background-image: url("src/umbrellaGirl.jpg");
+   background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.logininfo h2
+{
+  text-align: left;
+  font-family: cursive;
+}
+.currentweather
+{
+  color: #ffffff; 
+   flex-basis:50%;
+   border-radius:25px;
+   margin:50px;
+   text-align: center;
+   padding: 20px;
+   background-color:rgb(201, 106, 72);
+}
+
+.allowpermission
+{
+   text-align: center;
+   font-size:24px;
+   position:relative;
+   top:350px;
+
+}
+
+.showweather
+{
+ 
+  font-size: 24px;
+  margin-top: 50px;
+
+}
+.iconimage
+{
+
+    width:200px;
+    height:200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+.temp
+{
+ 
+  font-size:50px;
+  font-weight: 800;
+}
+.sky
+{
+  font-weight: 800;
+}
+.flex
+{
+  display: flex;
+  flex-flow: row wrap;
+  text-align: center;
+  justify-content: space-around;
+}
+.flex1
+{
+  background-color:#4b7f86;
+  width: 150px;
+  justify-items: center;
+  padding:15px;
+  box-shadow:white 2px 3px;
+  margin-top: 40px;
+  border-radius: 4px;
+}
+
+.buttondesign
+{
+        width:350px;
+        height:55px;
+        background-color:#4b7f86;
+        border-radius: 10px;
+        border: none;
+        font-size: 28px;
+        color:white;
+        margin-top:600px;
+        font-family:'Times New Roman', Times, serif;
+        cursor: pointer;
+      
+}
+.logout
+{
+
+  width:150px;
+  height:40px;
+  background-color:rgba(0, 0, 0, 0.693);
+  border-radius: 10px;
+  border: none;
+  font-size: 28px;
+  color:white;
+  position: absolute;
+  right: 20px;
+  top:10px;
+  font-family:'Times New Roman', Times, serif;
+  cursor: pointer;
+
+
+}
+.delete
+{
+  width:200px;
+  height:40px;
+  background-color:rgba(0, 0, 0, 0.693);
+  border-radius: 10px;
+  border: none;
+  font-size:18px;
+  color:white;
+  font-family:'Times New Roman', Times, serif;
+  cursor: pointer;
+}
+
+.displayform
+{
+    display: flex;
+    justify-content: center;
+  
+    margin:40px 20px;
+    align-items: center;
+   
+}
+
+
+input[type=text] {
+    width:20%;
+    padding: 8px 12px;
+    margin:50px;
+    font-size:14px;
+    color:black;
+    font-weight: bold;
+    border-radius:8px;
+    
+  }
+  label
+  {
+    color:#ffffff;
+    font-size:24px;
+    font-weight:800;
+  }
+  ::placeholder
+  {
+    font-size:14px;
+    color:black;
+    opacity:0.5;
+  }
+
+  .show
+  {
+      cursor: pointer;
+      outline:none;
+      width:120px;
+      padding:8px;
+      background-color: rgba(0, 0, 0, 0.693);
+      color:white;
+      border:none;
+      font-size:18px;
+      font-weight:500;
+      border-radius:10px;
+  
+  }
+  .backdesign
+  {
+    background-image: url("src/Weatherbackground.jpg");
+   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+  }
+  .weathershow
+  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+  }
+  .weatherimage
+  {
+    width:200px;
+    height:200px;
+    
+  }
+
+  .boxwrap
+  {
+    width: 230px;
+    margin: 25px;
+    text-align: center;
+    border:solid 1.5px black;
+    border-radius: 14px;
+    color:wheat;
+    display: inline-block;
+    font-size:20px;
+    box-shadow: 3px 5px 10px #b6e1ef;
+    background-color:#274047;
+    padding: 20px;
+   
+  }
+
+
+.weatherinfo
+{
+  
+  line-height:2.5;
+}
+.greencolor
+{
+  color: #008000;
+  font-size: 14px;
+  margin-left: 10px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  padding: 4px;
+}
+.redcolor
+{
+  color: #ff0000;
+  font-size: 14px;
+  margin-left: 10px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  padding: 4px;
+}
+
+@media screen and (min-width:150px) and (max-width:590px)
+{
+
+  .greencolor, .redcolor
+  {
+    
+    margin-top: 10px;
+   
+  }
+ 
+  .home
+  {
+    flex-direction: column;
+  }
+  .buttondesign
+{
+        width:150px;
+        height:55px;
+        border-radius: 10px;   
+        font-size:20px;      
+        margin-top:600px;
+    
+}
+.logininfo h2
+{
+  
+  font-size: 20px;
+  
+}
+.logininfo
+{
+  
+  background-size: 400px 800px;
+  margin:0;
+  border-radius: 0;
+  
+}
+.currentweather
+{
+  
+   border-radius:0;
+   margin:20px 0 0 0;
+ 
+}
+.logout
+{
+
+  width:70px;
+  height:40px;
+  font-size:18px;
+  
+}
+
+.user
+{
+  
+  
+  font-size: 15px;
+  margin-left:10px;
+ 
+}
+
+.displayform
+{
+  
+  display: flex;
+  background-color:rgb(138, 132, 132);
+  flex-direction: column;
+  border-radius: 15px;
+  margin:90px 20px 20px 20px;
+  padding: 30px;
+}
+input[type=text] {
+  width:100%;
+  
+}
+.boxwrap
+  {
+    display: flex;
+    flex-flow: row wrap;
+ justify-content: center;
+    width:90%;
+    overflow: hidden;
+
+   
+    margin: 20px;
+   
+
+    
+  }
+
+  .box
+{
+    flex: 1;
+  
+    margin: 25px;
+    border-radius: 14px;
+   
+    margin:20px;
+    padding:20px;
+
+}
+
+
+
+.show
+  {
+     
+      width:280px;
+     
+  }
+  .defaultmsg
+{
+  
+  margin-top:10px ;
+}
+
+
+}
+
+@media screen and (min-width:590px) and (max-width:1180px)
+  {
+
+    .greencolor, .redcolor
+    {
+      
+      margin-top: 10px;
+     
+    }
+   
+.buttondesign
+{
+        width:110px;
+        height:55px;
+        border-radius: 10px;   
+        font-size:20px;      
+        margin-top:800px;   
+}
+
+.logininfo
+{
+  
+  flex-basis:calc(52% - 12px);
+  background-size:900px 1300px;
+  background-position: center;
+  color: #ffffff;
+  margin-right: 10px;
+  overflow: hidden;
+}
+.displayform
+{
+  background-color:rgb(138, 132, 132);
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  margin:90px 20px 20px 20px;
+ 
+  padding: 30px;
+}
+
+
+input[type=text] {
+  width:50%;
+  
+}
+
+.show
+  {
+     
+      width:30%;
+     
+  }
+
+  
+
+
+  .boxwrap
+  {
+    display: flex;
+    flex-flow: row wrap;
+   justify-content: center;
+    width:95%;
+    overflow: hidden;
+
+   
+    margin: 20px;
+   
+
+    
+  }
+
+  .box
+{
+    flex: 1;
+  
+    margin: 25px;
+    border-radius: 14px;
+   
+    margin:20px;
+    padding:20px;
+
+}
+
+.defaultmsg
+{
+  
+  margin-top:10px ;
+}
+
+  }
+  @media screen and (min-width:400px) and (max-width:720px)
+  {
+    .logininfo
+    {
+      background-size:700px 1100px;   
+      
+    }
+   
+
+  }
