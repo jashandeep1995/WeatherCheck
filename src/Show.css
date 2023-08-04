@@ -36,7 +36,7 @@
    margin:50px;
    text-align: center;
    padding: 20px;
-   background-image: url("/assets/public/umbrellaGirl.jpg");
+   background-image: url("/umbrellaGirl.jpg");
    background-repeat: no-repeat;
   background-size: cover;
   
@@ -206,7 +206,7 @@ input[type=text] {
   }
   .backdesign
   {
-    background-image: url("/assets/public/Weatherbackground.jpg");
+    background-image: url("/Weatherbackground.jpg");
    background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
