@@ -29,13 +29,14 @@
 .logininfo
 {
   
+  
    color:#0e525b;
    flex-basis:50%;
    border-radius:25px;
    margin:50px;
    text-align: center;
    padding: 20px;
-   background-image: url("src/umbrellaGirl.jpg");
+   background-image: url("public/umbrellaGirl.jpg");
    background-repeat: no-repeat;
   background-size: cover;
   
@@ -205,7 +206,7 @@ input[type=text] {
   }
   .backdesign
   {
-    background-image: url("src/Weatherbackground.jpg");
+    background-image: url("public/Weatherbackground.jpg");
    background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
